@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "412469400634",
+    "project_id": "alisveris-7ac40",
+    "storage_bucket": "alisveris-7ac40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412469400634:android:bc3e9960c9bbb11ea9d103",
+        "android_client_info": {
+          "package_name": "com.alisveris_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "412469400634-rf6qbc7kbffii4bcme0rq58lhr6i7qim.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2G4ZByqJaJo1anfUfiDn7pSNoc2hsYvI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "412469400634-fs1488cktq6ta3a2urp9bcgeg7qkehie.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412469400634:android:b76f45a6156a8b92a9d103",
+        "android_client_info": {
+          "package_name": "com.alisveris_app_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "412469400634-rf6qbc7kbffii4bcme0rq58lhr6i7qim.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2G4ZByqJaJo1anfUfiDn7pSNoc2hsYvI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "412469400634-fs1488cktq6ta3a2urp9bcgeg7qkehie.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
