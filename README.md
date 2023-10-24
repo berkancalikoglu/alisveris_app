@@ -9,3 +9,5 @@ Designed, built and tested a fully functional shopping application with Flutter 
   - Authentication
   - Firestore
   - Storage
+
+Google Play Linki: https://play.google.com/store/apps/details?id=com.alisveris_app
