@@ -15,7 +15,7 @@ Designed, built and tested a fully functional shopping application with Flutter 
   - Firestore
   - Storage
 
-Google Play Linki: https://play.google.com/store/apps/details?id=com.alisveris_app
+Google Play: https://play.google.com/store/apps/details?id=com.alisveris_app
 
 
 ![Screenshot_1698233238](https://github.com/berkancalikoglu/alisveris_app/assets/52545754/9d7ae288-24a8-473c-ac4f-5cca9190b1ec)
