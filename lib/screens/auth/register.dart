@@ -70,7 +70,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
     final isValid = _formkey.currentState!.validate();
     FocusScope.of(context).unfocus();
     if (_pickedImage == null) {
-      MyAppFunctions.showErrorOrWarningDialog(context: context, subtitle: "Resim eklemelisin", fct: () {});
+      MyAppFunctions.showErrorOrWarningDialog(context: context, subtitle: "Resim eklemelisiniz", fct: () {});
       return;
     }
     if (isValid) {
@@ -174,8 +174,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          TitlesTextWidget(label: "Hoşgeldin"),
-                          SubtitleTextWidget(label: "Hoşgeldin mesajı"),
+                          TitlesTextWidget(label: "Kayıt olun"),
+                          SubtitleTextWidget(label: "Lütfen kayıt işlemlerini gerçekleştirin"),
                         ],
                       )),
                   const SizedBox(
@@ -206,7 +206,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                           textInputAction: TextInputAction.next,
                           keyboardType: TextInputType.name,
                           decoration: const InputDecoration(
-                            hintText: 'Tam adın',
+                            hintText: 'isim soyisim',
                             prefixIcon: Icon(
                               Icons.person,
                             ),
@@ -227,7 +227,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                           textInputAction: TextInputAction.next,
                           keyboardType: TextInputType.emailAddress,
                           decoration: const InputDecoration(
-                            hintText: "E posta",
+                            hintText: "e posta",
                             prefixIcon: Icon(
                               IconlyLight.message,
                             ),
@@ -249,7 +249,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                           keyboardType: TextInputType.visiblePassword,
                           obscureText: obscureText,
                           decoration: InputDecoration(
-                            hintText: "***********",
+                            hintText: "şifrenizi girin",
                             prefixIcon: const Icon(
                               IconlyLight.lock,
                             ),
@@ -281,7 +281,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                           keyboardType: TextInputType.visiblePassword,
                           obscureText: obscureText,
                           decoration: InputDecoration(
-                            hintText: "Tekrar şifre",
+                            hintText: "şifrenizi tekrar girin",
                             prefixIcon: const Icon(
                               IconlyLight.lock,
                             ),
@@ -322,7 +322,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                               ),
                             ),
                             icon: const Icon(IconlyLight.addUser),
-                            label: const Text("Üye ol"),
+                            label: const Text("Devam"),
                             onPressed: () async {
                               await _registerFCT();
                             },
