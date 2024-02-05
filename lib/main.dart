@@ -20,8 +20,10 @@ import 'screens/inner_screen/orders/orders_screen.dart';
 import 'screens/inner_screen/wishlist.dart';
 import 'screens/search_screen.dart';
 
-void main() {
-  runApp(const MyApp());
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
